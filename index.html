@@ -4,28 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roundnet Rabbits Regensburg</title>
+    <style>
+        /* Custom color for headlines */
+        h2 { color: #2A9594; }
+    </style>
+    <link rel="icon" href="rabbits_logo.jpg" type="image/png"> 
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-white text-gray-800">
-    <div class="container mx-auto px-4 max-w-5xl">
+     <nav  class="bg-[#FFBE02] text-white p-4">
+        <div class="container mx-auto w-full flex justify-between items-center">
+            <div class="text-xl font-bold">Roundnet Rabbits</div>
+            <div class="space-x-4">
+                <a href="#training" class="hover:underline">Training</a>
+                <a href="#liga" class="hover:underline">Liga</a>
+                <a href="#tournaments" class="hover:underline">Tournaments</a>
+                <a href="#kontakt" class="hover:underline">Kontakt</a>
+                <a href="https://www.instagram.com/roundnetrabbits" target="_blank" class="hover:underline">Instagram</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container mx-auto px-4 w-full">
         <nav class="py-4">
             <!-- Placeholder for Navbar -->
         </nav>
 
         <div class="flex flex-col md:flex-row items-center gap-4 mb-8">
             <div class="md:w-1/2">
-                <h2 class="text-green-600 text-2xl font-bold mb-4">Willkommen bei Roundnet-Rabbits Regensburg</h2>
+                <h2 class=" text-2xl font-bold mb-4">Roundnet Rabbits Regensburg</h2>
                 <p>
-                    Roundnet, im Volksmund auch bekannt unter dem Namen "Spikeball", ist eine Trendsportart
-                    aus den USA, welche nun auch seinen Weg in die Donaustadt gefunden hat.
-                </p>
             </div>
             <div class="md:w-1/2">
-                <img src="roundnet_4.jpg" alt="" class="w-full h-auto">
+                <img src="roundnet_2.jpg" alt="" class="w-full h-auto">
             </div>
         </div>
 
-        <img src="roundnet_1.jpg" alt="" class="w-full h-auto mb-8">
+        <img src="roundnet_4.jpg" alt="" class="w-full h-auto mb-8">
+
+      <div id="training" class="scroll-mt-20">
 
         <div class="mb-8">
             <p>
@@ -40,12 +56,13 @@
                 Wichtigen vertraut.
             </p>
         </div>
+      </div>
 
         <div class="mb-8 flex justify-center">
             <iframe
                 width="560"
                 height="315"
-                src="https://www.youtube.com/embed/1gQYJl9Y0a4"
+                src="https://www.youtube.com/embed/T3vLN-KHUlQ"
                 title="YouTube video player"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
@@ -54,7 +71,7 @@
         <div class="mb-8">
             <p>
                 Besonders Interessierte finden das ausführliche Regelwerk hier:
-                <a href="https://roundnetgermany.de/wp-content/uploads/2024/06/240619_Roundnet-Germany-Regelwerk-Offiziell.pdf" class="text-green-600 underline">Regelwerk</a>
+                <a href="https://roundnetgermany.de/wp-content/uploads/2024/06/240619_Roundnet-Germany-Regelwerk-Offiziell.pdf" class="underline">Regelwerk</a>
                 Was brauchst du um mitzumachen? Zunächst einmal nicht viel. Sportschuhe einpacken und los
                 geht's! Bedenke bitte, dass im Hallentraining natürlich Hallenschuhe notwendig sind. Wann
                 und wo wird trainiert? Unsere aktuellen Trainingszeiten findest du auf unserer
@@ -62,8 +79,10 @@
             </p>
         </div>
 
+      <div id="liga" class="scroll-mt-20">
         <div class="mb-8">
-            <h2 class="text-green-600 text-xl font-bold mb-4">Liga</h2>
+            <h2 class=" text-xl font-bold mb-4">Liga</h2>
+
             <p>
                 Die Roundnet Rabbits sind bereits seit der ersten Stunde in der deutschen Roundnet Liga
                 vertreten. Dabei haben wir bereits Teams in der Regionalliga, in der 2. und in der 1.
@@ -71,16 +90,18 @@
                 ausschließlich in der Halle gespielt. Jährlich stellen die Rabbits zwei bis drei Teams,
                 bestehend aus jeweils mindestens sechs Spieler*innen auf. Mehr Infos zur deutschen
                 Roundnetliga findest du hier: 
-                <a href="https://roundnetgermany.de/deutsche-roundnet-liga/" class="text-green-600 underline">Deutsche Roundnet Liga</a>
+                <a href="https://roundnetgermany.de/deutsche-roundnet-liga/" class="text-blue-600 underline">Deutsche Roundnet Liga</a>
             </p>
         </div>
+        </div>
 
+      <div id="tournaments" class="scroll-mt-20">
         <div class="flex flex-col md:flex-row items-center gap-4 mb-8">
             <div class="md:w-1/2">
-                <img src="roundnet_0.jpg" alt="" class="w-full h-auto">
+                <img src="roundnet_1.jpg" alt="" class="w-full h-auto">
             </div>
             <div class="md:w-1/2">
-                <h2 class="text-green-600 text-2xl font-bold mb-4">Tournaments</h2>
+                <h2 class=" text-2xl font-bold mb-4">Tournaments</h2>
                 <p>
                     Ganzjährig werden in ganz Deutschland verschiedene Turniere in allen Kategorien und für
                     alle Spielniveaus angeboten. Auch wir haben bereits einige Turniere in Regensburg
@@ -88,25 +109,31 @@
                     welches Spielniveau du dich anmelden solltest, sprich uns sehr gerne im Training an, wir
                     haben viele Spieler*innen mit jahrelanger Turniererfahrung. Wann und wo das nächste
                     Turnier in unserer Nähe stattfindet, erfährt man immer hier:
-                    <a href="https://playerzone.roundnetgermany.de/tournaments/upcoming" class="text-green-600 underline">Upcoming Tournaments</a>
+                    <a href="https://playerzone.roundnetgermany.de/tournaments/upcoming" class="text-blue-600 underline">Upcoming Tournaments</a>
                 </p>
             </div>
+        </div>
         </div>
 
         <div class="flex flex-col md:flex-row items-center gap-4 mb-8">
             <img src="roundnet_5.jpg" alt="" class="w-full h-auto mb-4">
             <div class="md:w-1/2">
-                <h2 class="text-green-600 text-2xl font-bold mb-4">Neugierig geworden?</h2>
+                <h2 class=" text-2xl font-bold mb-4">Neugierig geworden?</h2>
                 <p>
                     Egal ob du den sportlichen Wettkampf suchst oder einfach nur zum Spaß spielst – Roundnet
                     bietet Freude für alle! Komm doch gern zu einem Schnuppertraining vorbei. Wann und wo
-                    das möglich ist erfährst du auf unserer Instagramseite oder du kontaktierst und einfach!
+                    das möglich ist erfährst du auf unserer Instagramseite oder du kontaktierst uns einfach!
                     Wir freuen uns auf dich!
                 </p>
             </div>
-        </div>
 
-        <img src="roundnet_3.jpg" alt="" class="w-full h-auto">
     </div>
+        <img src="roundnet_3.jpg" alt="" class="w-full h-auto">
+     <div id="kontakt" class="scroll-mt-20">
+            <h2 class=" text-2xl font-bold mb-4">Kontakt</h2>
+            <p>Kontaktiere uns für weitere Informationen!</p>
+            <!-- Add contact details as needed -->
+        </div>
+        </div>
 </body>
 </html>
